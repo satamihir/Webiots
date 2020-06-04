@@ -1,0 +1,103 @@
+.Salad{
+    
+    padding: 4rem 0 2rem 0;
+    position: relative;
+    z-index: 1;
+    display: block;
+    border: 0;
+    font-size: 100%;
+
+}
+.content{
+    max-width: 460px;
+    text-align: center;
+    position: relative;
+    margin-left: 450px;
+    padding-top: 20px;
+}
+h2{
+    color: #555555;
+    font-size: 2.25rem;
+    line-height: 1.3;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: inherit;
+}
+p{
+    max-width: 100%;
+    font-weight: 300;
+    
+    color: #444444;
+    box-sizing: inherit;
+}
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1); }
+   
+    .card .card-body {
+      padding: 15px 15px 10px 15px; }
+      
+    .card .card-header {
+      padding: 15px 15px 0;
+      border: 0; }
+      .card .card-header:not([data-background-color]) {
+        background-color: transparent; }
+      .card .card-header .card-title {
+        margin-top: 10px; }
+    
+
+      
+    
+    
+    .card .card-footer {
+      background-color: transparent;
+      border: 0; }
+      .card .card-footer .stats i {
+        margin-right: 5px;
+        position: relative;
+        top: 2px; }
+      
+  
+  .card-plain {
+    background: transparent;
+    box-shadow: none; }
+    .card-plain .card-header,
+    .card-plain .card-footer {
+      margin-left: 0;
+      margin-right: 0;
+      background-color: transparent; }
+    .card-plain:not(.card-subcategories).card-body {
+      padding-left: 0;
+      padding-right: 0; }
+  
+  .card-chart .card-header .card-title {
+    margin-top: 10px;
+    margin-bottom: 0; }
+  
+  .card-chart .card-header .card-category {
+    margin-bottom: 5px; }
+  
+  
+ 
+  
+  .card-chart .chart-area p{
+    height: 190px;
+    width: 80px;
+    margin: 0 0 2rem 0;  
+    
+text-align: center; }
+  
+  .card-chart .card-footer {
+    margin-top: 15px; }
+    .card-chart .card-footer .stats {
+      color: #9A9A9A; }
+  
+  

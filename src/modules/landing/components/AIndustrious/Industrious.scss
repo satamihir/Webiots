@@ -1,0 +1,35 @@
+.Industrious {
+
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  .container {
+    max-width: 460px;
+    text-align: center;
+    position: relative;
+    margin-left: 450px;
+    padding-top: 100px;
+    h1 {
+      font-size: 4rem;
+      //line-height: 1.30435em;
+      margin-bottom: 1rem;
+       color: white;
+      line-height: 1.2;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin: 0 0 1.5rem 0;
+      box-sizing: inherit;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.61111em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      box-sizing: inherit;
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+    }
+      }
+}
